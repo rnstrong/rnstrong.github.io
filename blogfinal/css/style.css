@@ -116,12 +116,6 @@ p {
   font-weight: 300;
 }
 
-.byline {
-  font-family: Roboto, sans-serif;
-  color: hsla(0, 0%, 100%, .74);
-  font-size: 16px;
-  font-weight: 300;
-}
 
 .footer-wrapper {
   position: absolute;
@@ -249,20 +243,6 @@ p {
   color: #0050b8;
 }
 
-.article.suggested {
-  width: 100%;
-  padding: 22px;
-  float: left;
-  border-top: 1px solid rgba(0, 0, 0, .09);
-  border-right: 1px solid rgba(0, 0, 0, .09);
-  border-left: 1px solid rgba(0, 0, 0, .09);
-  box-shadow: none;
-}
-
-.article.suggested.last {
-  border-bottom: 1px solid rgba(0, 0, 0, .09);
-  box-shadow: none;
-}
 
 .image-wrapper {
   width: 20%;
