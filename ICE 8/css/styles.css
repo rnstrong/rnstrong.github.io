@@ -1,0 +1,52 @@
+h2 {
+    font-style: italic;
+    color: green;
+    font-size: 3em;
+    text-align: center;   
+}
+
+h4 {
+    font-style: italic;
+    color: goldenrod;
+    font-size: 2em
+        
+}
+
+label {
+    color:red;
+    
+}
+
+select {
+    color: deeppink;
+    font-style:oblique;
+}
+
+select:hover {
+    background-color: aqua;
+}
+
+legend {
+    color: green;
+}
+
+body {
+    background-color: bisque;
+}
+
+@media only screen and (max-width: 300px){
+    body {
+        background-color: purple;
+}
+}
+    
+@media only screen and (min-width: 480px){
+    body{
+        background-color: yellow;
+    }
+    }
+@media only screen and (min-width: 600px){
+    h4{
+text-align: center;
+    }
+}
