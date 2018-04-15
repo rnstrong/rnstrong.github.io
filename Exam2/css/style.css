@@ -1,0 +1,31 @@
+.cat {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.dog {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px){
+    body {
+        background-color: mediumpurple;
+    }
+    h2, h1 {
+        color: white;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    body{
+        background-color: aquamarine;
+    }
+    h2, h1 {
+        color: black;
+    }
+}
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        function catsFunction(){
+            var x = document.getElementById("hide");
+            if (x.style.display === "none"){
+                x.style.display = "block";
+                document.getElementById("change").innerHTML = "Cat Pictures"
+            } else {
+                x.style.display ="none";
+                document.getElementById("change").innerHTML = "Cats Rule!";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>Animal Pictures</h1>
+<button onclick="catsFunction()"type="button">Click Me</button>
+<h2 class="subheader" id= "change">Cat Pictures</h2>
+<div class="cat">
+<img src="images/catPicture.jpeg" alt="Cat" width= 30% height=30%>
+    
+<img
+src="images/flyingCat.jpg" alt="Hover Cat" width=30% height=30%>
+    
+<img
+src="images/ShadowCat.jpg" alt="Shadow Cat" width=30% height=30%>  
+</div>
+    
+    
+ <div class="dog" id="hide">   
+<h2>Dog Picture</h2>
+<img 
+src="http://www.dogbazar.org/wp-content/uploads/2014/09/british-bull-dog-puppies.jpg"
+alt="fat pupper" width=30% height=30%>
+</div>
+
+</body>
+</html>
