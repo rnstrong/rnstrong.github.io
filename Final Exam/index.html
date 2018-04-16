@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <title> Exam2 </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        function hideFunction() {
+            var x = document.getElementById("img1");
+            if (x.style.display !== "none") {
+                x.style.display = "none";
+
+            }
+        }
+
+        function showFunction() {
+            var x = document.getElementById("img1");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Renee Armstrong</h1>
+
+    <div class="first">
+        <img src="images/examPic.JPG" alt="Exam Pic" class="img" id="img1">
+
+
+        <img src="images/UMSI-logo.jpg" alt="UMSI Logo" class="img">
+    </div>
+    <div class="button">
+        <button onclick="hideFunction()" type="button">Hide Image</button>
+        <button onclick="showFunction()" type="button">Show Image</button>
+    </div>
+</body>
+
+</html>
