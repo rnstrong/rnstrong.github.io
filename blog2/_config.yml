@@ -1,2 +1,2 @@
-baseurl: "/blog2/" # the subpath of your site, e.g. /blog/
+baseurl: "blog2/" # the subpath of your site, e.g. /blog/
 url: "http://rnstrong.github.io/" # the base hostname & protocol for your site
