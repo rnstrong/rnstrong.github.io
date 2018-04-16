@@ -4,7 +4,9 @@
     
 
 }
-
+body {
+    background-image: url("imgs/sun-pattern.PNG");
+}
 
 
 .img {
